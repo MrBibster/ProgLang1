@@ -35,8 +35,7 @@ htmls = []
 emails=[]
 GoodHtmls = []
 
-#url = input('Введите URL')
-url = 'https://www.mosigra.ru'
+url = input('Введите URL')
 urlcheck(url,url,GoodHtmls,emails,GoodEmails)
 print(GoodHtmls)
 print(GoodEmails)
