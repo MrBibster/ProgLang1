@@ -24,7 +24,7 @@ def urlcheck(url, megaurl,htmls,emails,goodemails):
             if emails[n] not in goodemails:
                 goodemails.append(emails[n])
         for n in range(len(Badhtmls)):
-            temp = Badhtmls[n]ы
+            temp = Badhtmls[n]
             if re.match(megaurl, temp) != None:
                 if temp not in htmls:
                     htmls.append(temp)
